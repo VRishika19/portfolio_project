@@ -315,6 +315,14 @@ img{
 	}
 }
 @media(max-width:450px){
+	.profession-container .overlay{
+		position:fixed;
+		top:620px;
+		left:50%;
+		right:0;
+		transform: rotate(90deg) translate(-50% , 50%) scaleY(3);
+		border-width: 120px;
+	}
 	.profession-box .profession:nth-child(1){
 		transform:rotate(-90deg) translate(-80px,-110px);
 	}
